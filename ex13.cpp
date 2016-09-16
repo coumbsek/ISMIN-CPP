@@ -8,8 +8,8 @@
 int	main(){
 	Color c = Blue;
 	Vehicule v("Vehicule",1,4,c);
-	v.affiche();
+	cout<<v;
 	Moto m("Moto",1,c,50);
-	m.affiche();	
+	cout<<m;	
 	return 0;
 }
