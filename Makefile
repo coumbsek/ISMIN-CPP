@@ -5,3 +5,8 @@ ex9.o : str.h ex9.cpp
 #ex9 : str.o ex9.o
 ex9 : ex9.o 
 	g++ -o ex9 ex9.0 #g++ -o ex9 str.o ex9.o
+
+ex13.o : ex13Vehicule.h ex13Moto.h ex13.h ex13.cpp
+	g++ -c ex13.cpp
+ex13 : ex13.o
+	g++ -o ex13 ex13.o
