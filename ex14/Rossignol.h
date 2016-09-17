@@ -1,8 +1,8 @@
 #ifndef Rossignol_h
 #define Rossignol_h
 
+#include <string>
 #include "Oiseau.h"
-
 
 class Rossignol : public Oiseau {
 

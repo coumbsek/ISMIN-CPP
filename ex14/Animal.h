@@ -1,6 +1,8 @@
 #ifndef Animal_h
 #define Animal_h
-
+#include <cstring>
+#include <string>
+#include <iostream>
 
 class Animal {
 
@@ -12,8 +14,8 @@ class Animal {
 
 
  protected:
-    String name;
-    String carac;
+    string name;
+    string carac;
 };
 
 #endif // Animal_h

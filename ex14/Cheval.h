@@ -1,8 +1,8 @@
 #ifndef Cheval_h
 #define Cheval_h
 
+#include <string>
 #include "Animal.h"
-
 
 class Cheval : public Animal {
 
@@ -11,7 +11,7 @@ class Cheval : public Animal {
     virtual void hennit();
 
  public:
-    String carac;
+    string carac;
 };
 
 #endif // Cheval_h

@@ -1,8 +1,8 @@
 #ifndef Pigeon_h
 #define Pigeon_h
 
+#include <string>
 #include "Oiseau.h"
-
 
 class Pigeon : public Oiseau {
 
