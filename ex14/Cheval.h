@@ -2,16 +2,20 @@
 #define Cheval_h
 
 #include <string>
-#include "Animal.h"
+#include <cstring>
+
+using namespace std;
 
 class Cheval : public Animal {
-
- public:
-
-    virtual void hennit();
-
- public:
-    string carac;
+	public:
+		Cheval(string name):Animal(name){
+			carac = "galope";
+		}
+		virtual void parler(){
+			cout<<"hennit";
+		}	
+	protected:
+		string carac;
 };
 
 #endif // Cheval_h

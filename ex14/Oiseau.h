@@ -4,11 +4,19 @@
 #include <string>
 #include "Animal.h"
 
+using namespace std;
+
 class Oiseau : public Animal {
 
- public:
-
-    virtual void vole();
+	public:
+		Oiseau(string name):Animal(name){
+			carac = "vole";
+		}
+		virtual void parler(){
+			cout<<"vole";
+		}
+	protected:
+		string carac;
 };
 
 #endif // Oiseau_h

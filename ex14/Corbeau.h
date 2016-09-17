@@ -4,10 +4,16 @@
 #include <string>
 #include "Oiseau.h"
 
+using namespace std;
+
 class Corbeau : public Oiseau {
 
- public:
-    string carac;
+	public:
+		Corbeau(string name):Oiseau(name){
+		}
+		virtual void parler(){
+			cout<<"croasse";
+		}
 };
 
 #endif // Corbeau_h

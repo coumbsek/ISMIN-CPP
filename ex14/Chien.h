@@ -4,14 +4,20 @@
 #include <string>
 #include "Animal.h"
 
+using namespace std;
+
 class Chien : public Animal {
 
- public:
+	public:
+		Chien(string name) : Animal(name){
+			carac = "reste fidèle";
+		}	
+		virtual void parler(){
+			cout<<"aboie";
+		}
 
-    virtual void aboie();
-
- public:
-   int carac;
+	private:
+		string carac;
 };
 
 #endif // Chien_h

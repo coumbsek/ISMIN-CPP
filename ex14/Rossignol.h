@@ -4,10 +4,17 @@
 #include <string>
 #include "Oiseau.h"
 
+using namespace std;
+
 class Rossignol : public Oiseau {
 
- public:
-    String carac;
+	public:
+		Rossignol(string name):Oiseau(name){
+
+		}
+		virtual void parler(){
+			cout<<"chante";
+		}
 };
 
 #endif // Rossignol_h

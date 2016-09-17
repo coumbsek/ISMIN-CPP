@@ -11,7 +11,7 @@ ex13.o : ex13Vehicule.h ex13Moto.h ex13.h ex13.cpp
 ex13 : ex13.o
 	g++ -o ex13 ex13.o
 
-ex14.o : ex14/ex14.h ex14/ex14.cpp
+ex14.o : ex14/*.h ex14/ex14.cpp
 	g++ -c ex14/ex14.cpp
 
 ex14 : ex14.o

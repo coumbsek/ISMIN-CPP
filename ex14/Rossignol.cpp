@@ -1,2 +1,0 @@
-#include "Rossignol.h"
-
