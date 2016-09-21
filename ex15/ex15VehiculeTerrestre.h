@@ -11,6 +11,7 @@ class VehiculeTerrestre : public Vehicule {
 			cout<<"Vehicule Terrestre n°"<<serial<<endl;
 			cout<<"\t nbWheel "<<nbWheel<<endl;
 		}
+		void abstract(){};
 	protected:
 		int nbWheel;
 

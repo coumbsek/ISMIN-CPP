@@ -11,6 +11,7 @@ class VehiculeMarin : public Vehicule {
 			cout<<"Vehicule Marin n°"<<serial<<endl;
 			cout<<"\t tirant d'eau "<<lvWater<<endl;
 		}
+		void abstract(){};
 	protected:
 		float lvWater;
 
