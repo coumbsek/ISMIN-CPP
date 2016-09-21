@@ -9,9 +9,9 @@ class Vehicule {
 		Vehicule(int serial){
 			this->serial = serial;
 		}
-		virtual void disp(){
+		virtual void disp()=0;/*{
 			cout<<"Vehicule n°"<<serial<<endl;	
-		};
+		};*/
 	protected:
 		int serial;
 };
