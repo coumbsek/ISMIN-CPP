@@ -21,7 +21,7 @@ class Animal {
 		virtual void dispCarac(){
 			cout<<carac;
 		}
-		void parler(){}
+		virtual void parler()=0;
 		void setName(string name){
 			this->name = name;
 		}

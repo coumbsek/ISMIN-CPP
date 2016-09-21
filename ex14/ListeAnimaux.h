@@ -11,36 +11,26 @@ class ListeAnimaux {
 	public:
 		ListeAnimaux(){
 			len=0;
-			liste=NULL;	
 		}
-		void add(const Animal& a){
-			Animal *tmp = new Animal[len];
-			for (int i=0; i<len;i++){
-				tmp[i]=liste[i];
-			}
-			delete [] liste;
-			liste = new Animal[len+1];
-			int i;
-			for ( i=0; i<len;i++){
-				liste[i]=tmp[i];
-			}
-			liste[i]=a;
+		void add(Animal& a){
+			liste[len]=&a;
 			len++;
 		}
 		void disp() const{
 			for(int i=0; i<len;i++){
-				liste[i].dispName();
+				liste[i]->dispName();
 				cout<<" <";
-				liste[i].dispCarac();
+				liste[i]->dispCarac();
 				cout<<"> <";
-				liste[i].parler();
+				liste[i]->parler();
 				cout<<">";
 				cout<<endl;
 			}
 		}
 	private:
 		int len;
-		Animal *liste;
+		Animal *liste[100];
+
 };
 
 #endif // Chien_h
