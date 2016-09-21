@@ -14,8 +14,6 @@ class Cheval : public Animal {
 		virtual void parler(){
 			cout<<"hennit";
 		}	
-	protected:
-		string carac;
 };
 
 #endif // Cheval_h

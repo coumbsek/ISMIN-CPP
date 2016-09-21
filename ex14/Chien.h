@@ -16,9 +16,6 @@ class Chien : public Animal {
 		void parler(){
 			cout<<"aboie";
 		}
-
-	private:
-		string carac;
 };
 
 #endif // Chien_h

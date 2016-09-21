@@ -15,8 +15,6 @@ class Oiseau : public Animal {
 		virtual void parler(){
 			cout<<"vole";
 		}
-	protected:
-		string carac;
 };
 
 #endif // Oiseau_h

@@ -13,16 +13,16 @@
 using namespace std;
 
 int	main(){
-	Chien	chien("Medor");/*
+	Chien	chien("Medor");
 	Cheval	cheval("Crin Blanc");
 	Pigeon	pigeon("Petit pigeon");
 	Corbeau	corbeau("Petit corbeau");
-	Rossignol rossignol("Petit rossignol");*/
+	Rossignol rossignol("Petit rossignol");
 	ListeAnimaux l;
-	l.add(chien);/*
+	l.add(chien);
 	l.add(cheval);
 	l.add(pigeon);
 	l.add(corbeau);
-	l.add(rossignol);*/
+	l.add(rossignol);
 	l.disp();
 }
