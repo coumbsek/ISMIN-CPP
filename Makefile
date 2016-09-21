@@ -16,3 +16,9 @@ ex14.o : ex14/*.h ex14/ex14.cpp
 
 ex14 : ex14.o
 	g++ -o exo14 ex14.o
+
+ex15.o : ex15/*.h ex15/ex15.cpp
+	g++ -c ex15/ex15.cpp
+
+ex15 : ex15.o
+	g++ -o exo15 ex15.o
